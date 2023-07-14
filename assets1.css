@@ -1,0 +1,39 @@
+body {
+    max-width: 100%;
+}
+p {
+    font-size: 20px;
+    font-family:Helvetica;
+    color: blueviolet;
+}
+h1 {
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+    background-color: #0000ff;
+}
+p.nickname {
+    font-size: 25px;
+}
+p.ClassNumber {
+    font-size: 15px;
+}
+@media screen and (max-width:999px) and (min-width:780px) {
+    p {
+        color: orange;
+    }
+    h1 {
+        background-color: #ff00ff;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+}
+@media screen and (max-width:699px) {
+    p {
+        color: blue;
+    }
+    h1 {
+        background-color: green;
+        font-size: smaller;
+    }
+}
